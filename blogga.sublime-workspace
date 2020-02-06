@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"article",
+				"articles_path"
+			],
+			[
+				"comment",
+				"comment_params"
+			],
+			[
+				"cmom",
+				"comment"
+			],
+			[
+				"ar",
+				"article_path"
+			],
+			[
+				"arti",
+				"article_params"
+			],
+			[
+				"l",
+				"lia\tlink_to (action)"
+			],
+			[
+				"e",
+				"em\t<em>"
+			],
+			[
 				"nex",
 				"next_url"
 			],
@@ -248,10 +276,6 @@
 				"followed_id"
 			],
 			[
-				"e",
-				"edit_profile"
-			],
-			[
 				"dat",
 				"datetime〔class〕"
 			],
@@ -354,10 +378,6 @@
 			[
 				"deve",
 				"developing"
-			],
-			[
-				"l",
-				"lt\tinsert a rails view link_to helper"
 			],
 			[
 				"vi",
@@ -494,26 +514,6 @@
 			[
 				"content",
 				"content_tag〔function〕"
-			],
-			[
-				"lt",
-				"lt\tinsert a rails view link_to helper"
-			],
-			[
-				"activi",
-				"activity"
-			],
-			[
-				"ac",
-				"activity"
-			],
-			[
-				"fla",
-				"flash"
-			],
-			[
-				"helper_",
-				"helper_method〔function〕"
 			]
 		]
 	},
@@ -577,6 +577,12 @@
 	},
 	"file_history":
 	[
+		"/Users/iNjaro/Sites/jumpstart_projects/blogga/db/schema.rb",
+		"/Users/iNjaro/Sites/jumpstart_projects/blogga/db/migrate/20200204011053_create_taggings.rb",
+		"/Users/iNjaro/Sites/jumpstart_projects/blogga/app/models/tag.rb",
+		"/Users/iNjaro/Sites/jumpstart_projects/blogga/db/migrate/20200204015449_create_taggings.rb",
+		"/Users/iNjaro/Sites/jumpstart_projects/blogga/app/models/tagging.rb",
+		"/Users/iNjaro/.ssh/id_rsa",
 		"/Users/iNjaro/Sites/jumpstart_projects/blogga/blogga",
 		"/Users/iNjaro/Sites/python/microblog/app/email.py",
 		"/Users/iNjaro/Sites/python/microblog/app/__init__.py",
@@ -698,13 +704,7 @@
 		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/views/stories/index.html.erb",
 		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/models/tag.rb",
 		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/models/story.rb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/db/migrate/20161003002714_create_stories.rb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/views/stories/show.html.erb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/views/stories/_form.html.erb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/views/layouts/application.html.erb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/config/initializers/omniauth.rb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/controllers/application_controller.rb",
-		"/Users/iNjaro/Sites/Rails_Apps/storytellr/app/controllers/users_controller.rb"
+		"/Users/iNjaro/Sites/Rails_Apps/storytellr/db/migrate/20161003002714_create_stories.rb"
 	],
 	"find":
 	{
@@ -797,16 +797,44 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"app/models/article.rb"
+			],
+			[
+				"sh",
+				"app/views/articles/show.html.erb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"cont",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"",
+				"config/routes.rb"
+			],
+			[
+				"r",
+				"config/routes.rb"
+			],
+			[
+				"ar",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"for",
+				"app/views/articles/_form.html.erb"
+			],
+			[
 				"form",
 				"~/Sites/python/microblog/app/main/forms.py"
 			],
 			[
 				"po",
 				"~/Sites/python/microblog/app/templates/_post.html"
-			],
-			[
-				"rou",
-				"~/Sites/python/microblog/app/main/routes.py"
 			],
 			[
 				"ini",
@@ -817,24 +845,12 @@
 				"~/Sites/python/microblog/app/auth/forms.py"
 			],
 			[
-				"r",
-				"~/Sites/python/microblog/app/routes.py"
-			],
-			[
-				"for",
-				"~/Sites/python/microblog/app/auth/forms.py"
-			],
-			[
 				"fo",
 				"~/Sites/python/microblog/app/auth/forms.py"
 			],
 			[
 				"con",
 				"~/Sites/python/microblog/config.py"
-			],
-			[
-				"",
-				"~/Sites/python/microblog/app/__init__.py"
 			],
 			[
 				"mo",
@@ -895,10 +911,6 @@
 			[
 				"ge",
 				"Gemfile"
-			],
-			[
-				"a",
-				"config/initializers/assets.rb"
 			],
 			[
 				"as",
@@ -967,10 +979,6 @@
 			[
 				"mic",
 				"app/models/micropost.rb"
-			],
-			[
-				"sh",
-				"app/views/users/show.html.erb"
 			],
 			[
 				"h",
@@ -1299,14 +1307,6 @@
 			[
 				"bom",
 				"spec/bomb_spec.rb"
-			],
-			[
-				"fea",
-				"features/test.feature"
-			],
-			[
-				"gem",
-				"Gemfile"
 			]
 		],
 		"width": 0.0
