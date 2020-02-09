@@ -1,6 +1,7 @@
 class CommentsController < ApplicationController
 
 	before_action :get_article, only: [:create, :destroy]
+	before_action :require_login, except: [:create]
 
 	def create
 		@comment = Comment.new(comment_params)

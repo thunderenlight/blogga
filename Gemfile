@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'paperclip'
+# Use Magical Authentication for Rails. Supports ActiveRecord, DataMapper, Mongoid and MongoMapper. https://github.com/Sorcery/sorcery
+gem 'sorcery'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

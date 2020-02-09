@@ -1,6 +1,9 @@
 class ArticlesController < ApplicationController
 	include ArticlesHelper
 
+	before_action :require_login, except: [:index]
+
+
 	def index
 		@articles = Article.all
 	end
@@ -25,7 +28,7 @@ class ArticlesController < ApplicationController
 	end
 
 	def destroy
-		@article = Article.destroy(params[:id])
+		@article = Article.find(params[:id]).destroy
 
 		flash.notice = "Article '#{@article.title}' Destroyed!"
 
